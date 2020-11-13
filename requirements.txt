@@ -1,0 +1,15 @@
+# Requirements sorted by use.
+
+# For base AMD
+numpy
+scipy
+scikit-learn
+
+# For running notebooks
+notebook
+ipywidgets
+tqdm
+matplotlib
+
+# For `nn_predictor.ipynb`
+pytorch
