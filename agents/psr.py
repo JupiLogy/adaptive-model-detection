@@ -454,8 +454,6 @@ def flatten(lis):
     return out
 
 
-print(flatten([[1, 2, 3, 4], [5, 6, 7], [8, 9], 10]))
-
 def clip(arr, min=-float("Inf"), max=float("Inf")):
     arr[arr < min] = min
     arr[arr > max] = max
