@@ -1,4 +1,5 @@
 import torch
+import numpy as np
 
 def amd_error(Sr, Mr, Qr, y_pred, a, o, dtype=torch.float):
     ao_r = Mr[int(a)][int(o)][0]
